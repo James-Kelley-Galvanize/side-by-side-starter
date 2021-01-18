@@ -3,19 +3,19 @@
 	display: flex;
 	flex-flow: row wrap;
 }
-.title-bar {
+.parent-title-bar {
 	width: 100%;
 	display: flex;
 }
-.column {
+.parent-column {
 	width: 49%;
 }
-.left-side {
+.parent-left-side {
 	border-right: solid;
 	border-color: darkcyan;
 	border-width: 1px;
 }
-.right-side {
+.parent-right-side {
 	border-left: solid;
 	border-color: darkcyan;
 	border-width: 1px;

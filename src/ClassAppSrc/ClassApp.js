@@ -1,6 +1,10 @@
+/* 
+This file is a stand-in for a Class-based app.  If substituting your own app, change the package name to be a name distinct from the hooks app (it's currently imported by ParentApp.js as ClassApp), as both will be im
+*/
+
 import { Component } from "react";
 
-class ClassApp extends Component {
+class App extends Component {
 	constructor() {
 		super();
 		this.state = {};
@@ -9,4 +13,4 @@ class ClassApp extends Component {
 		return <div className="App">I'm the class app</div>;
 	}
 }
-export default ClassApp;
+export default App;
