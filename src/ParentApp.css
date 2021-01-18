@@ -1,0 +1,22 @@
+.parent-app {
+	text-align: center;
+	display: flex;
+	flex-flow: row wrap;
+}
+.title-bar {
+	width: 100%;
+	display: flex;
+}
+.column {
+	width: 49%;
+}
+.left-side {
+	border-right: solid;
+	border-color: darkcyan;
+	border-width: 1px;
+}
+.right-side {
+	border-left: solid;
+	border-color: darkcyan;
+	border-width: 1px;
+}
